@@ -38,6 +38,11 @@ Sample Route structure:
 - Write the controller function in the controllers/task.js file.
   Refactor the controller function in the routes.
 
+The controller file for the tasks sets up the functionality for:
+
+- Creating a task, reading a tasks, reading all tasks, updating a task and deleting a tasks
+  We then export this funcitonality and import it in the routes file and connect it to the router
+
 # 2. Store API
 
 # 3. JWT

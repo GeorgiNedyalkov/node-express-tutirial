@@ -43,6 +43,57 @@ The controller file for the tasks sets up the functionality for:
 - Creating a task, reading a tasks, reading all tasks, updating a task and deleting a tasks
   We then export this funcitonality and import it in the routes file and connect it to the router
 
+- Set Up and Test Postman with all of our routes
+
+## REST API
+
+We are building a server. We want to create a REST API, an HTTP interface so that other apps
+like frontend apps can interact with out data.
+
+REST - Representational, State, Transfer
+
+_Pattern_ that combines verbs, route paths and data
+
+- Get - api/tasks - Get All Tasks
+- Post - api/tasks - Create Task
+- Get - api/tasks/:id - Get Task
+- Put/ Patch - api/tasks/:id - Update Task
+- Delete - api/tasks/:id - Delete Task
+
+Our API allows users to pefrom CRUD operations on our data.
+
+## MongoDB
+
+Document based database.
+
+- NoSQL, Non Relational DB
+- Store JSON
+- Easy to get started
+- Free cloud hosting
+
+Create a cluster in MongoDB Atlas
+Set up:
+
+- Database access
+  Password: QqB6Wl9H8GsCcVFy
+- Network acess
+
+Set up as environment variable later.
+
+Once our database is ready we need to connect to the server.
+
+## Mongoose
+
+An object data modeling library for node.js
+
+Install mongoose.
+
+Set up a connection to our server.
+
+- Import mongoose
+- connect mongoose
+- require in app
+
 # 2. Store API
 
 # 3. JWT

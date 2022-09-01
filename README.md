@@ -75,7 +75,6 @@ Create a cluster in MongoDB Atlas
 Set up:
 
 - Database access
-  Password: QqB6Wl9H8GsCcVFy
 - Network acess
 
 Set up as environment variable later.
@@ -94,6 +93,13 @@ Set up a connection to our server.
 - connect mongoose
 - require in app
 - Refactor to use environment variables
+
+Set up structure for future documents using Schema
+
+- create models folder
+- create task.js file
+- create our schema and wrap it in a module
+- create new tasks in the controllers
 
 # 2. Store API
 

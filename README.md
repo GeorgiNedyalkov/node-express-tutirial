@@ -93,6 +93,7 @@ Set up a connection to our server.
 - Import mongoose
 - connect mongoose
 - require in app
+- Refactor to use environment variables
 
 # 2. Store API
 

@@ -26,11 +26,11 @@ Set up a basic server:
 
 Sample Route structure:
 
-// app.get("/api/v1/tasks") - get all the tasks
-// app.post("/api/v1/tasks") - create a new task
-// app.get("/api/v1/tasks/:id") - get single task
-// app.patch("/api/v1/tasks:id") - update task
-// app.delete("/api/v1/tasks:id") - delete task
+app.get("/api/v1/tasks") - get all the tasks
+app.post("/api/v1/tasks") - create a new task
+app.get("/api/v1/tasks/:id") - get single task
+app.patch("/api/v1/tasks:id") - update task
+app.delete("/api/v1/tasks:id") - delete task
 
 - Set up the Router and Controllers
 - Create a router and import it in the app
@@ -100,6 +100,11 @@ Set up structure for future documents using Schema
 - create task.js file
 - create our schema and wrap it in a module
 - create new tasks in the controllers
+
+Set up Validation
+
+For now we can create a document when we post an empty object. We only filter the proper data with the schema.
+We can now add validation to our schema to require different properties.
 
 # 2. Store API
 

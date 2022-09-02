@@ -6,13 +6,10 @@ const connectDB = require("./db/connect")
 require("dotenv").config()
 
 // middleware
+app.use(express.static("./public"))
 app.use(express.json()) // if we don't do this we do not have the data in req.body
 
 // routes
-// get request
-app.get("/hello", (req, res) => {
-  res.send(`Hello World`)
-})
 
 // the root route for the tasks router
 app.use("/api/v1/tasks", tasks)

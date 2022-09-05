@@ -113,6 +113,10 @@ Create a 404 route not found error page.
 Set up middleware folder.
 Create a 404 not Found function.
 
+## Create a Middleware Async wrapper function
+
+Refactor code to eliminate multiple try catch blocks to a single async wrapper middleware function
+
 # 2. Store API
 
 # 3. JWT

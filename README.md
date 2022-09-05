@@ -117,6 +117,11 @@ Create a 404 not Found function.
 
 Refactor code to eliminate multiple try catch blocks to a single async wrapper middleware function
 
+## Create a Error handling middleware
+
+Create an error handling middleware function
+Create a custom error class
+
 # 2. Store API
 
 # 3. JWT

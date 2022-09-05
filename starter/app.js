@@ -5,6 +5,7 @@ const tasks = require("./routes/tasks")
 const connectDB = require("./db/connect")
 require("dotenv").config()
 const notFound = require("./middlewares/not-found")
+const errorHandlerMiddleware = require("./middlewares/error-handler")
 
 // middleware
 app.use(express.static("./public"))
@@ -17,6 +18,7 @@ app.use("/api/v1/tasks", tasks)
 
 // 404 function
 app.use(notFound)
+app.use(errorHandlerMiddleware)
 
 const port = 1500
 

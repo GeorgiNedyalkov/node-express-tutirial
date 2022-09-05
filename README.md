@@ -106,6 +106,13 @@ Set up Validation
 For now we can create a document when we post an empty object. We only filter the proper data with the schema.
 We can now add validation to our schema to require different properties.
 
+## Route not Found
+
+Create a 404 route not found error page.
+
+Set up middleware folder.
+Create a 404 not Found function.
+
 # 2. Store API
 
 # 3. JWT

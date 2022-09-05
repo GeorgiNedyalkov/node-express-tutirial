@@ -4,6 +4,7 @@ const app = express()
 const tasks = require("./routes/tasks")
 const connectDB = require("./db/connect")
 require("dotenv").config()
+const notFound = require("./middlewares/not-found")
 
 // middleware
 app.use(express.static("./public"))
@@ -13,6 +14,9 @@ app.use(express.json()) // if we don't do this we do not have the data in req.bo
 
 // the root route for the tasks router
 app.use("/api/v1/tasks", tasks)
+
+// 404 function
+app.use(notFound)
 
 const port = 1500
 

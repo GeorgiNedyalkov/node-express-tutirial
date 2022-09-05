@@ -122,6 +122,11 @@ Refactor code to eliminate multiple try catch blocks to a single async wrapper m
 Create an error handling middleware function
 Create a custom error class
 
+## Deployment
+
+Create an environment variable
+Authentication and extra packages for security later.
+
 # 2. Store API
 
 # 3. JWT

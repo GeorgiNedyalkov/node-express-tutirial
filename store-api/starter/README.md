@@ -37,3 +37,8 @@ Create folder structure:
 - Set up two routes: get all products and static
 
 5. Import express async errors package to eliminate wrapping or writting async functions for middlewares
+
+6. Create a Model and Schema
+
+- Import mongoose
+- Create product schema with properties and validations

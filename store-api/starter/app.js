@@ -1,9 +1,9 @@
 require("dotenv").config()
-// async errors
+require("express-async-errors")
 
 const express = require("express")
 const app = express()
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 1500
 
 const connectDB = require("./db/connect")
 const productsRouter = require("./routes/products")

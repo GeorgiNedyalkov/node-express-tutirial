@@ -1,7 +1,7 @@
 # Store API
 
 Install dependencies:
-nodemon, mongoose, dotenv, express
+nodemon, mongoose, dotenv, express and epxress-async-error\*
 
 1. Setup a basic server
 
@@ -33,3 +33,7 @@ Create folder structure:
 - import router
 
 4. Set up a new collection in Postman
+
+- Set up two routes: get all products and static
+
+5. Import express async errors package to eliminate wrapping or writting async functions for middlewares

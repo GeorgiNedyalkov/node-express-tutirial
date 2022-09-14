@@ -42,3 +42,9 @@ Create folder structure:
 
 - Import mongoose
 - Create product schema with properties and validations
+
+7. Populate the database with our json dummy data
+
+8. Set up filter functionality
+
+- In controllers

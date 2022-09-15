@@ -50,3 +50,7 @@ Create folder structure:
 - In controllers
 
 - Sort the data
+
+- Set up fields
+
+- Set a limit

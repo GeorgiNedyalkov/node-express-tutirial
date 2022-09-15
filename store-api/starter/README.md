@@ -48,3 +48,5 @@ Create folder structure:
 8. Set up filter functionality
 
 - In controllers
+
+- Sort the data

@@ -54,3 +54,7 @@ Create folder structure:
 - Set up fields
 
 - Set a limit
+
+- Set up pagination
+
+- Set up numberic filters
